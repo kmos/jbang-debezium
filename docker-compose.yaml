@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: quay.io/debezium/example-postgres:3.0
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=native
+      - POSTGRES_PASSWORD=native
+    volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d
