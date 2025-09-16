@@ -1,6 +1,6 @@
 # Jbang with Native Debezium Quarkus Extension
 
-In this repository are present a class Quarkus Application with Debezium Extension and his version using jbang.
+In this repository are present a classic Quarkus Application with Debezium Extension and his version using jbang.
 
 
 ## Prerequisite
