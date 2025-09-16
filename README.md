@@ -8,6 +8,7 @@ In this repository are present a classic Quarkus Application with Debezium Exten
 - Maven 3.9.11
 - Oracle GraalVM build 21.0.8+12-LTS-jvmci-23.1-b72
 - Docker
+- jbang 0.130.0
 
 ## Run the Quarkus Example
 
