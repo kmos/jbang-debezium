@@ -13,13 +13,16 @@ In this repository are present a class Quarkus Application with Debezium Extensi
 
 - run `docker compose up`
 - move to `quarkus-example`
-- use for development `mvn quarkus:dev` or to build a native version `mvn clean install -Dnative`
+- use for development `mvn quarkus:dev`
+- create a native buiild with `mvn clean install -Dnative`
+- run the native application in the target directory
 
 ## Run the Jbang Example
 
 - run `docker compose up`
 - move to `jbang-example`
-- run `jbang debezium.java`
+- run `jbang debezium.java` *WORKS*
+- run `jbang --native debezium.java` *FAILS*
 
 ## The problem
 
