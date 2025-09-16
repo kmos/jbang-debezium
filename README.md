@@ -16,7 +16,7 @@ In this repository are present a classic Quarkus Application with Debezium Exten
 - move to `quarkus-example`
 - use for development `mvn quarkus:dev`
 - create a native buiild with `mvn clean install -Dnative`
-- run the native application in the target directory
+- run the native build generated in the target directory
 
 ## Run the Jbang Example
 
